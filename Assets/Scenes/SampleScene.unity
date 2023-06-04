@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Humanoid_2
       objectReference: {fileID: 0}
+    - target: {fileID: 3486757287897492857, guid: e451bacfe32fa558085b6bc3aef26d6d, type: 3}
+      propertyPath: m_Speed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3486757287897492859, guid: e451bacfe32fa558085b6bc3aef26d6d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -144,7 +148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3486757289291529553, guid: e451bacfe32fa558085b6bc3aef26d6d, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3486757289291529553, guid: e451bacfe32fa558085b6bc3aef26d6d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -801,14 +805,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 22.3, z: -83.5}
+  m_LocalRotation: {x: 0.36650118, y: 0, z: 0, w: 0.9304176}
+  m_LocalPosition: {x: 65.2, y: 49.5, z: -80}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 43, y: 0, z: 0}
 --- !u!1 &1535492297
 GameObject:
   m_ObjectHideFlags: 0
@@ -1034,23 +1038,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1938171558}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1f48e417c641fa4c9b39bba5ea9c4e5, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a77ef4e408f1060db4e6e2c1132d164, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 8655639459655646126}
---- !u!114 &1938171565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1938171558}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1f48e417c641fa4c9b39bba5ea9c4e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  mouseButtonIndex: 0
 --- !u!1 &2018352548
 GameObject:
   m_ObjectHideFlags: 0
@@ -1276,6 +1267,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Humanoid_1
       objectReference: {fileID: 0}
+    - target: {fileID: 3486757287897492857, guid: e451bacfe32fa558085b6bc3aef26d6d, type: 3}
+      propertyPath: m_Speed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3486757289291529552, guid: e451bacfe32fa558085b6bc3aef26d6d, type: 3}
       propertyPath: m_Name
       value: NavMeshAgent_1
@@ -1290,7 +1285,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3486757289291529553, guid: e451bacfe32fa558085b6bc3aef26d6d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 18.6
+      value: 20.63
       objectReference: {fileID: 0}
     - target: {fileID: 3486757289291529553, guid: e451bacfe32fa558085b6bc3aef26d6d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1939,7 +1934,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8655639459655646122}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 695687f9ddb50ea49a69bf3e0f7e37dd, type: 3}
   m_Name: 
@@ -3054,7 +3049,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8655639460179377720}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 695687f9ddb50ea49a69bf3e0f7e37dd, type: 3}
   m_Name: 

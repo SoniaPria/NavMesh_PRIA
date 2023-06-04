@@ -1,13 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
-public class Target : MonoBehaviour
+public class MoveToClickPoint : MonoBehaviour
 {
     [Range(0, 1)]
     public int mouseButtonIndex = 0;
+    NavMeshAgent agent;
 
-    void Start() { }
+    void Start()
+    {
+        agent = GetComponent<NavMeshAgent>();
+    }
 
     void Update()
     {
@@ -17,7 +20,7 @@ public class Target : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out hitData, 1000))
             {
-                transform.position = hitData.point;
+                agent.destination = hitData.point;
             }
         }
     }
