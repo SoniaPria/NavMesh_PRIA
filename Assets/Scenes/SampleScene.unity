@@ -432,7 +432,7 @@ GameObject:
   - component: {fileID: 304303845}
   - component: {fileID: 304303846}
   m_Layer: 0
-  m_Name: Target_1
+  m_Name: TargetMoveToClick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1888,12 +1888,12 @@ GameObject:
   - component: {fileID: 8655639459655646124}
   - component: {fileID: 8655639459655646123}
   m_Layer: 0
-  m_Name: BlueBall
+  m_Name: Target_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!135 &8655639459655646123
 SphereCollider:
   m_ObjectHideFlags: 0
