@@ -5,19 +5,20 @@ using UnityEngine.AI;
 
 public class Agent : MonoBehaviour
 {
-
     public Transform target;
     NavMeshAgent agent;
-    // Start is called before the first frame update
+
     void Start()
     {
-        agent = GetComponentInChildren<NavMeshAgent>();
+        agent = GetComponent<NavMeshAgent>();
         agent.destination = target.position;
     }
 
-    // Update is called once per frame
     void Update()
     {
         agent.destination = target.position;
+
+        Debug.Log($"{gameObject.name} position({transform.position})");
+        Debug.Log($"\t target.position{target.position}");
     }
 }
