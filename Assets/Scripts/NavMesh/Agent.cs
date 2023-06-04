@@ -18,7 +18,7 @@ public class Agent : MonoBehaviour
     {
         agent.destination = target.position;
 
-        Debug.Log($"{gameObject.name} position({transform.position})");
-        Debug.Log($"\t target.position{target.position}");
+        // Debug.Log($"{gameObject.name} position({transform.position})");
+        // Debug.Log($"\t target.position{target.position}");
     }
 }

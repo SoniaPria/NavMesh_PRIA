@@ -17,6 +17,7 @@ public class AgentObstacle : MonoBehaviour
     void Update()
     {
         pingpong = Mathf.SmoothStep(-1, 1, Mathf.PingPong(Time.time / damp, 1));
+
         transform.localPosition = Vector3.up * height + transform.forward * pingpong * displacement;
     }
 }
